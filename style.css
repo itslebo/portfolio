@@ -175,6 +175,9 @@ section {
   width: 400px;
   margin: auto 0;
 }
+.section__pic-container img{
+  border-radius: 100%;
+}
 
 .section__text {
   align-self: center;
@@ -313,6 +316,7 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
 
 /* EXPERIENCE SECTION */
 

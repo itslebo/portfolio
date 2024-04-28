@@ -26,7 +26,7 @@ Welcome to my portfolio! This portfolio showcases my projects and skills in web 
 <ul>
   <li>Continuously update and improve existing projects.</li>
   <li>Develop new projects to showcase additional skills and interests.</li>
-  <li>Integrate Flask for dynamic content and functionality.</li>
+  <li><s>Integrate Flask.</s> &#x2713; </li>
 </ul>
 
 <h2>How to Run/Clone this repository &#x1F4BB;: </h2>

@@ -3,10 +3,10 @@ Welcome to my portfolio! This portfolio showcases my projects and skills in web 
 <br> Technologies Used:
 
 <ul>
+  <li>Flask</li>
   <li>HTML</li>
   <li>CSS</li>
   <li>JS</li>
-  <li>Flask (for future updates)</li>
 </ul>
 
 <h2>Projects <span>&#x1F4BC;</span> </h2>

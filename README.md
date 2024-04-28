@@ -3,10 +3,10 @@ Welcome to my portfolio! This portfolio showcases my projects and skills in web 
 <br> Technologies Used:
 
 <ul>
+  <li>Flask</li>
   <li>HTML</li>
   <li>CSS</li>
   <li>JS</li>
-  <li>Flask (for future updates)</li>
 </ul>
 
 <h2>Projects <span>&#x1F4BC;</span> </h2>
@@ -26,7 +26,7 @@ Welcome to my portfolio! This portfolio showcases my projects and skills in web 
 <ul>
   <li>Continuously update and improve existing projects.</li>
   <li>Develop new projects to showcase additional skills and interests.</li>
-  <li>Integrate Flask for dynamic content and functionality.</li>
+  <li><s>Integrate Flask.</s> &#x2713; </li>
 </ul>
 
 <h2>How to Run/Clone this repository &#x1F4BB;: </h2>

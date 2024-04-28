@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="Lebohang, Mokhorekhi, Lebohang Mokhorekhi, Software Development, Web Development, Flask, Java" />
-    <title>Mokhorekhi L. | Software Developer </title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='mediaqueries.css') }}" />
-    <link rel="shortcut icon" href="{{ url_for('static', filename='/images/letter-l.svg') }}" type="image/x-icon">
+    <title>Mokhorekhi L. | Software Dev </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="./assets/letter-l.svg" type="image/x-icon">
   </head>
   <body>
     <nav id="desktop-nav">
@@ -40,7 +39,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="{{ url_for('static', filename='/images/profile.png') }}" alt="John Doe profile picture" />
+        <img src="./assets/profile.png" alt="John Doe profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -52,13 +51,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="{{ url_for('static', filename='/images/linkedin.png') }}"
+            src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://www.linkedin.com/in/lmokhorekhi/'"
           />
           <img
-            src="{{ url_for('static', filename='/images/github.png') }}"
+            src="./assets/github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/itslebo/'"
@@ -72,7 +71,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="{{ url_for('static', filename='/images/about.png') }}"
+            src="./assets/about.png"
             alt="Profile picture"
             class="about-pic"
           />
@@ -81,7 +80,7 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="{{ url_for('static', filename='/images/experience.png') }}"
+                src="./assets/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
@@ -90,7 +89,7 @@
             </div>
             <div class="details-container">
               <img
-                src="{{ url_for('static', filename='/images/education.png') }}"
+                src="./assets/education.png"
                 alt="Education icon"
                 class="icon"
               />
@@ -109,7 +108,7 @@
         </div>
       </div>
       <img
-        src="{{ url_for('static', filename='/images/arrow.png') }}"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
@@ -125,7 +124,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -136,7 +135,7 @@
               </article>
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -147,7 +146,7 @@
               </article>
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -158,7 +157,7 @@
               </article>
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -174,7 +173,7 @@
             <div class="article-container">
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -185,7 +184,7 @@
               </article>
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -196,7 +195,7 @@
               </article>
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -208,7 +207,7 @@
 
               <article>
                 <img
-                  src="{{ url_for('static', filename='/images/checkmark.png') }}"
+                  src="./assets/checkmark.png"
                   alt="Experience icon"
                   class="icon"
                 />
@@ -222,7 +221,7 @@
         </div>
       </div>
       <img
-        src="{{ url_for('static', filename='/images/arrow.png') }}"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
@@ -235,7 +234,7 @@
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="{{ url_for('static', filename='/images/project-1.png') }}" alt="Project 1" class="project-img"/>
+              <img src="./assets/project-1.png" alt="Project 1" class="project-img"/>
             </div>
             <h2 class="experience-sub-title project-title">this.Portfolio</h2>
             <div class="project-tags">
@@ -245,27 +244,13 @@
             </div>
             <div class="btn-container">
               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/itslebo/portfolio/'"> Github </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='#'"> View Demo </button>
-            </div>
-          </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/project-2.png" alt="Project 2" class="project-img"/>
-            </div>
-            <h2 class="experience-sub-title project-title">numberGuessingGame</h2>
-            <div class="project-tags">
-              <span>Java</span>
-            </div>
-            <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/itslebo/numberGame/'"> Github </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='/project'"> View Demo </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='#'"> Live Demo </button>
             </div>
           </div>
           
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="{{ url_for('static', filename='/images/project-3.png') }}" alt="Project 2" class="project-img"/>
+              <img src="./assets/project-3.png" alt="Project 2" class="project-img"/>
             </div>
             <h2 class="experience-sub-title project-title">Survey Form</h2>
             <div class="project-tags">
@@ -274,16 +259,30 @@
             </div>
             <div class="btn-container">
               <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/itslebo/html_survey-form'"> Github </button>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://surveyform-project1.netlify.app/'"> View Demo </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://surveyform-project1.netlify.app/'"> Live Demo </button>
             </div>
           </div>
 
-          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <!-- <img src="./assets/project-2.png" alt="Project 2" class="project-img"/> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Still working on it...</h2>
+            <!-- <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div> -->
+            <!-- <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'"> Github </button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'"> Live Demo </button>
+            </div> -->
+          </div>
           
         </div>
       </div>
       <img
-        src="{{ url_for('static', filename='/images/arrow.png') }}"
+        src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
@@ -295,7 +294,7 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
-            src="{{ url_for('static', filename='/images/email.png') }}"
+            src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
@@ -303,7 +302,7 @@
         </div>
         <div class="contact-info-container">
           <img
-            src="{{ url_for('static', filename='/images/linkedin.png') }}"
+            src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
@@ -324,6 +323,6 @@
       </nav>
       <p>Copyright &#169; 2024 Lebohang Mokhorekhi. All Rights Reserved.</p>
     </footer>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="script.js"></script>
   </body>
 </html>
